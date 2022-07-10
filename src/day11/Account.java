@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Account {
 	public static final Scanner sc = new Scanner(System.in);
-
+	/*
+	 * Main method for getting user's input and calling the functions accordingly.
+	 * 
+	 */
 	public static void main(String[] args) {
 		boolean temp = true;
 		Account_function af = new Account_function();
